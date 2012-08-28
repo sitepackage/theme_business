@@ -1,0 +1,311 @@
+<fieldset>
+  <legend>รูปแบบธีม</legend>
+  <table>
+    <tr>
+      <th><label for="style_name">โทนสี</label></th>
+      <td>
+        <select name="style_name" id="style_name">
+          <option value="style1">Style 1</option>
+          <option value="style2">Style 2</option>
+          <option value="style3">Style 3</option>
+          <option value="style4">Style 4</option>
+          <option value="style5">Style 5</option>
+          <option value="style6">Style 6</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="pattern_name">ลายกราฟฟิก</label></th>
+      <td>
+        <select name="pattern_name" id="pattern_name">
+          <option value="pattern1">Pattern 1</option>
+          <option value="pattern2">Pattern 2</option>
+          <option value="pattern3">pattern 3</option>
+          <option value="pattern4">Pattern 4</option>
+          <option value="pattern5">Pattern 5</option>
+          <option value="pattern6">Pattern 6</option>
+          <option value="pattern7">Pattern 7</option>
+          <option value="pattern8">Pattern 8</option>
+          <option value="pattern9">Pattern 9</option>
+          <option value="pattern10">Pattern 10</option>
+          <option value="pattern11">Pattern 11</option>
+        </select>
+      </td>
+    </tr>
+  </table>
+</fieldset>
+<fieldset>
+  <legend>หน้าแรก</legend>
+  <table>
+    <tr>
+      <th><label for="welcome_message">หน้าสำหรับข้อความต้อนรับ</label></th>
+      <td>
+        <select class="page" name="welcome_message" id="welcome_message" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="frontpage_collection">คอลเลคชันสินค้าสำหรับหน้าแรก</label></th>
+      <td>
+        <select class="collection" name="frontpage_collection" id="frontpage_collection" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="frontpage_product_limit">จำนวนสินค้า</label></th>
+      <td>
+        <select name="frontpage_product_limit" id="frontpage_product_limit">
+          <option value="3">3</option>          
+          <option value="6">6</option>          
+          <option value="9">9</option>
+          <option value="12">12</option>
+          <option value="15">15</option>
+        </select>
+      </td>
+    </tr>
+  </table>
+</fieldset>
+<fieldset>
+  <legend>รูปภาพ</legend>
+  <table>
+    <tr>
+      <th><label for="logo_image_uri">โลโก้ URI (300x60 px.)</label></th>
+      <td>
+        <input class="image_uri" type="text" id="logo_image_uri" name="logo_image_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="favicon_image_uri">Favicon URI (.png, .ico)</label></th>
+      <td>
+        <input class="image_uri" type="text" id="favicon_image_uri" name="favicon_image_uri" />
+      </td>
+    </tr>
+  </table>
+</fieldset>
+<fieldset>
+  <legend>Widgets</legend>
+  <table>
+    <tr>
+      <th><label for="ecommerce_enabled">ระบบสั่งซื้อสินค้าออนไลน์</label></th>
+      <td>
+        <select name="ecommerce_enabled" id="ecommerce_enabled">
+          <option value="">เปิดใช้งาน</option>
+          <option value="1">ปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>    
+  <tr>
+      <th><label for="linklist_highlight">ลิงค์ลิสต์ ภาพไฮไลท์</label></th>
+      <td>
+        <select class="linklist" name="linklist_highlight" id="linklist_highlight" />
+      </td>
+    </tr>    
+    <tr>
+      <th><label for="form_login">ฟอร์มล็อกอิน</label></th>
+      <td>
+        <select name="form_login" id="form_login">
+          <option value="">ปิดใช้งาน</option>
+          <option value="1">เปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="footer_message">หน้าสำหรับข้อความด้านล่าง</label></th>
+      <td>
+        <select class="page" name="footer_message" id="footer_message" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="footer_blog">บล็อกสำหรับบทความด้านล่าง</th>
+      <td>
+        <select class="blog" name="footer_blog" id="footer_blog" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="footer_blog_limit">จำนวนบทความ</th>
+      <td>
+        <select name="footer_blog_limit" id="footer_blog_limit">
+          <option value="3">3</option>
+          <option value="5">5</option>
+          <option value="10">10</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="linklist_banners">ลิงค์ลิสต์ แบนเนอร์ด้านล่าง</label></th>
+      <td>
+        <select class="linklist" name="linklist_banners" id="linklist_banners" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="linklist_nav2">ลิงค์ลิสต์ เนวิเกชันหลัก</label></th>
+      <td>
+        <select class="linklist" name="linklist_nav2" id="linklist_nav2" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="linklist_nav1">ลิงค์ลิสต์ เนวิเกชันรอง</label></th>
+      <td>
+        <select class="linklist" name="linklist_nav1" id="linklist_nav1" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="search_target">กล่องค้นหา</label></th>
+      <td>
+        <select name="search_target" id="search_target">
+          <option value="">สินค้า</option>
+          <option value="google">ข้อมูลทั้งหมด</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="footer_stats">สถิติและสถานะร้านค้า</label></th>
+      <td>
+        <select name="footer_stats" id="footer_stats">
+          <option value="">ปิดใช้งาน</option>
+          <option value="1">เปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="product_images_enabled">แสดงรูปภาพ extra ในหน้ารายละเอียดสินค้า</label></th>
+      <td>
+        <select name="product_images_enabled" id="product_images_enabled">
+          <option value="">ปิดใช้งาน</option>
+          <option value="1">เปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>     
+  </table>
+</fieldset>
+<fieldset>
+  <legend>หน้ารายการสินค้า</legend>
+  <table>   
+    <tr>
+      <th><label for="sidebar_collection">คอลเลคชันสินค้า ด้านข้าง</label></th>
+      <td>
+        <select name="sidebar_collection" id="sidebar_collection">
+          <option value="">เปิดใช้งาน</option>
+          <option value="1">ปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="sidebar_type">ประเภทสินค้า ด้านข้าง</label></th>
+      <td>
+        <select name="sidebar_type" id="sidebar_type">
+          <option value="">ปิดใช้งาน</option>
+          <option value="1">เปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="sidebar_brand">แบนด์สินค้า ด้านข้าง</label></th>
+      <td>
+        <select name="sidebar_brand" id="sidebar_brand">
+          <option value="">ปิดใช้งาน</option>
+          <option value="1">เปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="subcategory">ฟิลเตอร์สินค้า ตรงกลาง</label></th>
+      <td>
+        <select name="subcategory" id="subcategory">
+          <option value="">ปิดใช้งาน</option>          
+          <option value="1">Tag</option>
+          <option value="2">Type</option>
+          <option value="3">Brand</option>
+        </select>
+      </td>
+    </tr>       
+    <tr>
+      <th><label for="collection_price">แสดงราคาปกติ</label></th>
+      <td>
+        <select name="collection_price" id="collection_price">
+          <option value="">ปิดใช้งาน</option>
+          <option value="1">เปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>
+  </table>
+</fieldset>
+<fieldset>
+  <legend>ฟอร์มติดต่อ</legend>
+  <table>
+    <tr>
+      <th><label for="contact_page">หน้าสำหรับแทรกฟอร์มติดต่อ</label></th>
+      <td>
+        <select class="page" name="contact_page" id="contact_page" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="contact_iframe_src">URI ฟอร์มติดต่อ</label></th>
+      <td>
+        <input class="uri" type="text" id="contact_iframe_src" name="contact_iframe_src" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="contact_iframe_height">ความยาวของฟอร์ม</label></th>
+      <td>
+        <input class="text" type="text" id="contact_iframe_height" name="contact_iframe_height" />
+      </td>
+    </tr>    
+  </table>
+</fieldset>
+<fieldset>
+  <legend>สังคมออนไลน์</legend>
+  <table>
+    <tr>
+      <th><label for="social_enabled">Social Share</label></th>
+      <td>
+        <select name="social_enabled" id="social_enabled">
+          <option value="">ปิดใช้งาน</option>
+          <option value="1">เปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="facebook_uri">Facebook URI</label></th>
+      <td>
+        <input class="uri" type="text" id="facebook_uri" name="facebook_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="like_box_enabled">Facebook Like Box</label></th>
+      <td>
+        <select name="like_box_enabled" id="like_box_enabled">
+          <option value="">ปิดใช้งาน</option>
+          <option value="1">เปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="like_box_height">ความยาว Facebook Like Box</label></th>
+      <td>
+        <input class="text" type="text" id="like_box_height" name="like_box_height" value="556" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="like_box_enabled">ออพชัน Facebook Like Box</label></th>
+      <td>
+        <input type="checkbox" name="like_box_show_faces" id="like_box_show_faces" value="1" />
+        <label for="like_box_show_faces">Show Faces</label>
+        <input type="checkbox" name="like_box_show_stream" id="like_box_show_stream" value="1" />
+        <label for="like_box_show_stream">Show Stream</label>
+        <input type="checkbox" name="like_box_show_header" id="like_box_show_header" value="1" />
+        <label for="like_box_show_header">Show Header</label>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="twitter_uri">Twitter URI</label></th>
+      <td>
+        <input class="uri" type="text" id="twitter_uri" name="twitter_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="youtube_uri">Youtube URI</label></th>
+      <td>
+        <input class="uri" type="text" id="youtube_uri" name="youtube_uri" />
+      </td>
+    </tr>
+  </table>
+</fieldset>

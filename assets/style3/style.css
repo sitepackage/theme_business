@@ -1,0 +1,42 @@
+body{
+	background:url('body_bg.png') repeat-x #fff ;
+}
+#outer_wrapper{
+	background:url('outer_wrapper_bg.png') no-repeat top center;
+}
+#sidebar2 .info .heading{
+	background:url('frontpage_h.png') no-repeat;
+}
+a, h1, h2, h3, h4, h5,
+#collection .price {
+	color:#135e5c;
+}
+#header .nav2 a:hover{
+	background:#135e5c;
+}
+#sidebar3 .active a,
+a:hover{
+	color: #000;
+}
+#sidebar1 {
+		border-bottom:4px solid #135e5c;
+}
+#sidebar3 h2 {
+		border-bottom:2px solid #135e5c;
+}
+#sidebar1 .account fieldset .button {
+	background-color : #135e5c;
+	color:#fff;
+}
+#page a,
+#article a,
+#blog a,
+#discussions a {
+	color: #197573;
+}
+#page a:hover,
+#article a:hover,
+#blog a:hover,
+#discussions a:hover {
+	color: #000;
+}

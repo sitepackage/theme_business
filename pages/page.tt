@@ -1,0 +1,9 @@
+<div id="page" class="page">
+  <h1><span>[% page.name | html %]</span></h1>
+  <div class="padding">
+    [% page.content %]
+    [%- if settings.contact_page && settings.contact_iframe_src %]
+    <iframe style="background-color: transparent; border: 0 none;" src="[% settings.contact_iframe_src %]" frameborder="0" marginwidth="0" marginheight="marginheight" scrolling="no" width="100%" height="[% settings.contact_iframe_height || 400 %]"></iframe>
+    [%- end %]
+  </div>
+</div>
